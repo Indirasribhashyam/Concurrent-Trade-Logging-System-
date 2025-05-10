@@ -1,10 +1,10 @@
 # Concurrent-Trade-Logging-System-
 This project simulates a simplified financial trading system where trades pass through four sequential stages: Order Placed, Order Validated, Order Executed, and Trade Settled. The system is designed to handle multiple trades concurrently using raw threads, ensuring that events for each trade are logged in the proper order even when processed simultaneously. 
 
-## Introduction
-## Problem Statement
-## Description
-## Applications in Financial Services
+- [Introduction](#introduction)
+- [Problem Statement](#problem-statement)
+- [Description](#description)
+- [Applications in Financial Services](#applications-in-financial-services)
 
 Trade process overview:
 1.	Order Placed:
