@@ -1,6 +1,15 @@
 # Concurrent-Trade-Logging-System-
 This project simulates a simplified financial trading system where trades pass through four sequential stages: Order Placed, Order Validated, Order Executed, and Trade Settled. The system is designed to handle multiple trades concurrently using raw threads, ensuring that events for each trade are logged in the proper order even when processed simultaneously. 
 
+## Table of Contents
+- [Process Overview](#process-overview)
+- [Stages in Trade Lifecycle](#stages-in-trade-lifecycle)
+- [Challenges](#challenges)
+- [Output](#output)
+- [Conclusion](#conclusion)
+- [Usage](#usage)
+
+
 # Process Overview:
 
 This project simulates a multi-threaded trade life cycle in a simplified trading system where each trade passes through four stages:
@@ -64,7 +73,7 @@ The system effectively manages concurrent trades ensuring thread-safe logging an
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/Parallel-Merge-Sort-Financial-Services.git
+    git clone https://github.com/Indirasribhashyam/Concurrent-Trade-Logging-System-.git
     ```
 
 2. **Compile the code:**
