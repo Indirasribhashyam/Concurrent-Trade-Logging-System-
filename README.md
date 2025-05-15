@@ -5,10 +5,10 @@ This project simulates a simplified financial trading system where trades pass t
 
 This project simulates a multi-threaded trade life cycle in a simplified trading system where each trade passes through four stages:
 
-1.Order Placed
-2.Order Validated
-3.Order Executed
-4.Trade Settled
+1. Order Placed
+2. Order Validated
+3. Order Executed
+4. Trade Settled
 
 Each stage is implemented in a thread-safe and concurrent manner, ensuring that multiple trades can be processed in parallel while preserving log order for individual trades.
 
